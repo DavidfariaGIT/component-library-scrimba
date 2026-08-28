@@ -1,39 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
 .white {
+   
    background-color: #F3F4F6; 
-   color: #1F2937;
+   color:  #1F2937;
 }
 
 .red {
-    background-color: #991B1B;
-    color: #FEE2E2;
+    background-color: #FEE2E2;
+    color:  #991B1B;
 }
 
 .yellow {
-    background-color: #92400E;
-    color: #fef3c7;
+    background-color: #fef3c7;
+    color: #92400E;
 }
 
 .green {
-    background-color: #065f46;
-    color: #D1FAE5;
+    background-color: #D1FAE5;
+    color: #065f46;
 }
 
 .blue {
-    background-color: #1E40AF;
-    color: #DBEAFE;
+    background-color: #DBEAFE;
+    color: #1E40AF;
 }
 
 .indigo {
-    background-color: #3730A3;
-    color: #E0E7FF;
+    background-color: #E0E7FF;
+    color: #3730A3;
 }
 
 .purple {
-    background-color: #5B21B6;
-    color: #EDE9FE;
+    background-color: #EDE9FE;
+    color: #5B21B6;
 }
 
 .pink {
-    background-color: #9d174d;
-    color: #fce7f3;
+    background-color: #fce7f3;
+    color: #9d174d;
+}
+
+.badge-container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.sqaure-badge {
+    height: 24px;
+    width: 67px;
+    font-size: 1rem;
+    padding: 12px, 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.pill {
+    border-radius: 50px;
 }

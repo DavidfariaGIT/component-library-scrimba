@@ -1,9 +1,9 @@
 
-export default function Badge({children, varaint}) {
+export default function Badge({children, backgroundColor, variant}) {
 
 
   return (
-    <div className="sqaureBadge">
+    <div className={`sqaure-badge ${backgroundColor} ${variant || ""}`}>
         {children}
     </div>
   )
