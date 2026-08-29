@@ -150,3 +150,105 @@ main {
 .brand-icon-img {
     width: 24px;
 }
+
+.test-container {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+}
+
+.testimonial {
+    width: 1358px;
+    min-height: 400px;
+    background-color: #2545B8;
+    color: white;
+    display: flex;
+    
+    align-items: center;
+    position: relative;
+}
+
+.profile {
+    width: 384px;
+    height: 464px;
+    position: absolute;
+    top:-12px;
+    margin-left: 71px;
+}
+
+.qoute-icon-img {
+    width: 48px;
+    max-height: 48px;
+}
+
+.test-content {
+    margin-left: 487px;
+    margin-right: 71px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.test-content > p {
+    font-size: 1.5rem;
+}
+
+.test-footer {
+    font-size: 1rem;
+   
+}
+
+.test-footer {
+   margin: 0;
+   padding: 0;
+}
+
+.role {
+    margin: 0;
+}
+
+.name {
+    margin-bottom: 5px;
+}
+
+.testimonial-photoless {
+ background-color: #F9FAFB;
+ background-image: url("./images/dots.png");
+ background-position: left bottom;
+ background-repeat: no-repeat;
+ background-size: 241px, 298px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ width: 1358px;
+ height: 444px;
+}
+
+.photoless-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 236px;
+
+}
+
+.logo {
+    width: 180px;
+}
+
+.test-photoless-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.divid {
+    width: 20px;
+}

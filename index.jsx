@@ -4,6 +4,7 @@ import { loremIpsum } from 'lorem-ipsum';
 import Badge from './components/Badge';
 import Banner from './components/Banner';
 import Cards from './components/Cards';
+import Testimonials from './components/Testimonials';
 
 
 
@@ -16,6 +17,8 @@ function App() {
     const dangerIcon = <img className="icon"src="./icons/danger.png"/>
     const infoIcon = <img className="icon" src="./icons/info.png"/>
     const brandIcon = <img className="brand-icon-img" src='./icons/brand.png'/>
+    const qouteIcon = <img className="qoute-icon-img" src='./icons/qoute.png'/>
+    const divider = <img className='divid' src='./icons/divid.png'/>
 
     const backgroundColors = ["white", "red", "yellow", "green", "blue", "indigo", "purple", "pink"] 
 
@@ -50,14 +53,39 @@ function App() {
     </section>
 
     <section className='card-container'>
-    <Cards hovered={true}>
-      
+    <Cards>
       <div className={`brand-icon`}>
       {brandIcon}
       </div>
       <h3>Easy development</h3>
       <p>{loremIpsum()}</p>
     </Cards>
+    </section>
+
+     <section className='test-container'>
+    <Testimonials>
+      <img className='profile' src=".././images/women.png"/>
+      <div className='test-content'>
+       {qouteIcon}
+      <p>{loremIpsum()}</p>
+      <div className='test-footer'>
+        <p className="name"><b>May Andersons</b></p>
+        <p className='role'>Workcation, CTO</p>
+      </div>
+      </div>
+    </Testimonials>
+    <Testimonials photoless={true}>
+      <div className='photoless-content'>
+      <img className="logo" src=".././images/logo.png"/>
+      <p className='qoute-text'>{loremIpsum()}</p>
+      <div className='test-photoless-footer'>
+        <p>May Andersons</p>
+        {divider}
+        <p>Workcation, CTO</p>
+      </div>
+      </div>
+    </Testimonials>
+    
     </section>
     </main>
   )

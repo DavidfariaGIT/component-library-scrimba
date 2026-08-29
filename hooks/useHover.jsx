@@ -2,9 +2,9 @@ import { useState, useEffect, useRef } from "react"
 
 export default function useHover() {
     const [isHovered, setIsHovered] = useState(false)
-
     const element = useRef(null)
     
+
     useEffect(() => {
        const El = element.current 
 
