@@ -105,3 +105,48 @@ main {
     height: 16px;
     padding-inline: 10px;
 }
+
+.card-container{
+    margin-top: 3em;
+    position: relative;
+}
+
+.card {
+    width: 384px;
+    background-color: #F9FAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-inline: 24px;
+    padding-bottom: 32px;
+}
+
+.card > h3 {
+    color: #111827;
+    font-weight: 500;
+    margin-top: 3em;
+}
+
+.card > p {
+    color: #6B7280;
+    width: 80%;
+    text-align: center;
+}
+
+.brand-icon {
+    background-color: #3F75FE;
+    border-radius: 10px;
+    padding: 5px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -35px;
+}
+
+.brand-icon-img {
+    width: 24px;
+}
