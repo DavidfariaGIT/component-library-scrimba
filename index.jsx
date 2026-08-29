@@ -39,6 +39,10 @@ function App() {
     <Banner variant="warning" message={loremIpsum()}>{warningIcon} Attention</Banner>
     <Banner variant="error" message={loremIpsum()}>{dangerIcon} There is a problem with your app</Banner>
     <Banner variant="neutral" message={loremIpsum()}>{infoIcon} Update avaliable </Banner>
+    <Banner variant="success" message={loremIpsum()} compact={true}>{goodIcon} Congrats</Banner>
+    <Banner variant="warning" message={loremIpsum() }compact={true}>{warningIcon} Attention</Banner>
+    <Banner variant="error" message={loremIpsum()} compact={true}>{dangerIcon} There is a problem with your app</Banner>
+    <Banner variant="neutral" message={loremIpsum()} compact={true}>{infoIcon} Update avaliable </Banner>
     </section>
     </main>
   )

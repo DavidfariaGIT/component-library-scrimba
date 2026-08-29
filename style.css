@@ -80,7 +80,6 @@ main {
     gap: 1.5em;
 }
 .banner {
-    min-height: 70px;
     padding: 12px;
     display: flex;
     flex-direction: column;
