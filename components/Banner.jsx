@@ -1,6 +1,6 @@
 import React, { Children } from 'react'
 
-export default function Banner({children, variant, message}) {
+export default function Banner({children, variant, message, compact}) {
 
 let backgroundColor
 switch(variant) {
@@ -20,10 +20,11 @@ switch(variant) {
     backgroundColor = "white"
 }
 
+
   return (
     <div className={`Banner ${backgroundColor}`}>
       <h2>{children}</h2>
-      <p>{message}</p>
+      {compact ? null : <p>{message}</p>}
     </div>
   )
 }
